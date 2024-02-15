@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	url := "https://www.priceline.com/drive/landing/?p=<xxx>"
+	url := "https://www.amazon.com/asv/autoreload"
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		fmt.Println("Error creating request:", err)
